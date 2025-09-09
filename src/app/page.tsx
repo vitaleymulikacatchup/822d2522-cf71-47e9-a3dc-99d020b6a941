@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarLayoutFloatingOverlay from '@/components/navigation/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import SplitHero from '@/components/sections/layouts/hero/SplitHero';
@@ -10,17 +10,17 @@ import FooterLogo from '@/components/footer/FooterLogo';
 export default function Home() {
   return (
     <SiteThemeProvider theme={{
-      styleVariant: "funAndTrendy",
+      styleVariant: 'funAndTrendy',
       colorTemplate: 1,
-      textAnimation: "slide",
+      textAnimation: 'slide',
     }}>
       <NavbarLayoutFloatingOverlay
         navItems={[
-          { name: "Hero", id: "hero" },
-          { name: "About", id: "about" },
-          { name: "How to Buy", id: "how-to-buy" },
-          { name: "Tokenomics", id: "tokenomics" },
-          { name: "Footer", id: "footer" },
+          { name: 'Hero', id: 'hero' },
+          { name: 'About', id: 'about' },
+          { name: 'How to Buy', id: 'how-to-buy' },
+          { name: 'Tokenomics', id: 'tokenomics' },
+          { name: 'Footer', id: 'footer' },
         ]}
         logoSrc="/images/logo.svg"
         logoAlt="PawCoin Logo"
@@ -43,8 +43,8 @@ export default function Home() {
         <CtaAbout
           title="About PawCoin"
           descriptions={[
-            "PawCoin is designed for lovers of our furry friends.",
-            "Empower your meme strategy with our community-driven currency!",
+            'PawCoin is designed for lovers of our furry friends.',
+            'Empower your meme strategy with our community-driven currency!'
           ]}
         />
       </div>
@@ -53,9 +53,9 @@ export default function Home() {
         <HowToBuy3D
           title="How to Buy PawCoin"
           steps={[
-            { title: "Create a Wallet", description: "Set up your crypto wallet to hold PawCoin.", image: "/images/placeholder1.avif", position: "left", isCenter: false },
-            { title: "Purchase Ether", description: "Buy Ether to exchange for PawCoin.", image: "/images/placeholder2.avif", position: "center", isCenter: true },
-            { title: "Exchange and Hold", description: "Exchange your Ether for PawCoin and hold for future benefits.", image: "/images/placeholder3.avif", position: "right", isCenter: false }
+            { title: 'Create a Wallet', description: 'Set up your crypto wallet to hold PawCoin.', image: '/images/placeholder1.avif', position: 'left', isCenter: false },
+            { title: 'Purchase Ether', description: 'Buy Ether to exchange for PawCoin.', image: '/images/placeholder2.avif', position: 'center', isCenter: true },
+            { title: 'Exchange and Hold', description: 'Exchange your Ether for PawCoin and hold for future benefits.', image: '/images/placeholder3.avif', position: 'right', isCenter: false }
           ]}
         />
       </div>
@@ -65,9 +65,9 @@ export default function Home() {
           title="Tokenomics"
           description="PawCoin’s tokenomics is transparent and community-focused."
           cardItems={[
-            { id: 1, title: "Market Cap", description: "Initially set at 10 million dollars." },
-            { id: 2, title: "Tokens Locked", description: "70% of tokens are locked for 2 years." },
-            { id: 3, title: "Founder’s Share", description: "20% of tokens are reserved for the development team." },
+            { id: 1, title: 'Market Cap', description: 'Initially set at 10 million dollars.' },
+            { id: 2, title: 'Tokens Locked', description: '70% of tokens are locked for 2 years.' },
+            { id: 3, title: 'Founder’s Share', description: '20% of tokens are reserved for the development team.' },
           ]}
         />
       </div>
@@ -78,9 +78,9 @@ export default function Home() {
           logoAlt="PawCoin Logo"
           logoText="PawCoin"
           columns={[
-            { title: "Products", items: [{ label: "Buy PawCoin", onClick: () => { /* Handle click */ } }, { label: "PawCoin FAQ", onClick: () => { /* Handle click */ } }] },
-            { title: "Community", items: [{ label: "Twitter", onClick: () => { /* Handle click */ } }, { label: "Discord", onClick: () => { /* Handle click */ } }] },
-            { title: "More", items: [{ label: "Privacy Policy", onClick: () => { /* Handle click */ } }, { label: "Contact", onClick: () => { /* Handle click */ } }] },
+            { title: 'Products', items: [{ label: 'Buy PawCoin', onClick: () => { /* Handle click */ } }, { label: 'PawCoin FAQ', onClick: () => { /* Handle click */ } }] },
+            { title: 'Community', items: [{ label: 'Twitter', onClick: () => { /* Handle click */ } }, { label: 'Discord', onClick: () => { /* Handle click */ } }] },
+            { title: 'More', items: [{ label: 'Privacy Policy', onClick: () => { /* Handle click */ } }, { label: 'Contact', onClick: () => { /* Handle click */ } }] },
           ]}
           copyrightText="© 2023 PawCoin. All rights reserved."
           onPrivacyClick={() => { /* Handle click */ }}
