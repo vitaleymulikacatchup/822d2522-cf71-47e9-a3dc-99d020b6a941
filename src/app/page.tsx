@@ -23,7 +23,8 @@ export default function Home() {
           { name: 'Footer', id: 'footer' },
         ]}
         logoSrc="/images/logo.svg"
-        logoAlt="PawCoin Logo"
+        logoWidth={40}
+        logoHeight={40}
         buttonText="Buy Paw"
         onButtonClick={() => { /* Handle click */ }}
       />
